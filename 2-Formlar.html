@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        Get:Data Query String(adres çubuğu) uzerinden gönderilir.Bir üst limiti vardır.(2000 karakter).
+        Post:Veri doğrudan arka planda gönderilir.Varsayılan limit 4096kb=4mb.
+        Querry String:Adres çubuğunda sitenin adresinden sonra soru işaretinden başlayıp devam eden adrese denir. 
+    -->
+    <form method="get" action="">
+        <input type="text" id="ad" name="ad"/><br><br>
+        <input type="text" name="soyad" id="soyad"><br><br>
+        <input type="submit" value="Gönder">
+    </form><br><br>
+
+    <form method="get" action="">
+        <input type="text" id="ad" name="ad"/>
+        <input type="text" name="soyad" id="soyad">
+        <input type="checkbox" name="" id="">
+        <input type="color" name="" id="">
+        <input type="date" name="" id="">
+        <input type="datetime" name="" id="">
+        <input type="email" name="" id="">
+        <input type="file" name="" id="">
+        <input type="hidden" value="Çok gizli bir bilgidir.">
+        <input type="number" name="" id="">
+        <input type="password" name="" id="">
+        <input type="radio" name="" id="">
+        <textarea name="" id="" cols="80" rows="5"></textarea>
+        <select name="" id="">
+            <option value="">İstanbul</option>
+            <option value="">Ankara</option>
+            <option value="">İzmir</option>
+        </select>
+        <input type="reset" value="Vazgeç">
+        <input type="submit" value="Gönder">
+    </form>
+</body>
+</html>
